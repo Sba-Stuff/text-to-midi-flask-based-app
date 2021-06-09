@@ -19,3 +19,6 @@ James Skripchuk's code to convert music to midi. I am goint to convert this into
 6. Then you hit upload to get the things done.</br>
 7. When everything is done,Scroll Down and you will see the newly created midi on the web interface. You can play it from there.</br>
 <img src=https://github.com/Sba-Stuff/text-to-midi-flask-based-app/blob/master/static/images/5-Listening%20Output.jpg></br>
+<h1>Youtube Video</h1></br>
+<cennter>Click On Image To watch video on youtube.</br>
+<a href="https://www.youtube.com/watch?v=eCT_PX68z1A" target="_blank"><img src="https://i.ytimg.com/vi/eCT_PX68z1A/hqdefault.jpg"></a></center>
