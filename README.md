@@ -4,12 +4,18 @@ James Skripchuk's code to convert music to midi. I am goint to convert this into
 <h1>How To Use</h1>
 <p>If you are able to run original code and understand it, using this app will be easy.</p></br>
 <p>Run the Server by hitting server.py code using give command.</p></br>
-<b>python.exe server.py</b></br>
-</br>
+<b>python.exe server.py</b></br></br>
+<img src=https://github.com/Sba-Stuff/text-to-midi-flask-based-app/blob/master/static/images/1-Running%20Sever.jpg></br>
+<p>You will see the status when server is running</p></br>
+<img src=https://github.com/Sba-Stuff/text-to-midi-flask-based-app/blob/master/static/images/2-Server%20Running.jpg></br>
+<p>Copy the given server URL and paste it in your browser.</p></br>
+<img src=https://github.com/Sba-Stuff/text-to-midi-flask-based-app/blob/master/static/images/3-Opening%20URL.jpg></br>
 1. You add text file as parameter in original code. In this code, you will upload that file.</br>
 2. You select the time signature of piece or keep it random.</br>
 3. You set the scale of positive sentiment text. (Note: manual scale is not added).</br>
 4. You set the scale of negative sentiment text. (Note: manual scale is not added).</br>
 5. You enter rythems of your choice.</br>
+<img src=https://github.com/Sba-Stuff/text-to-midi-flask-based-app/blob/master/static/images/4-Adding%20Content.jpg></br>
 6. Then you hit upload to get the things done.</br>
-7. When everything is done, you will see the newly created midi on the web interface. You can play it from there.</br>
+7. When everything is done,Scroll Down and you will see the newly created midi on the web interface. You can play it from there.</br>
+<img src=https://github.com/Sba-Stuff/text-to-midi-flask-based-app/blob/master/static/images/5-Listening%20Output.jpg></br>
