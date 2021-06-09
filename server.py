@@ -104,9 +104,13 @@ def hello_world():
         for i in arr:
             new_arr.append(float(i))
         custom_rhythm = arr
+        script_dir = os.path.dirname(__file__)
+        text = codecs.open(os.path.join(script_dir,"static/test.txt"), encoding='utf-8', errors='ignore')
+        text_string = text.read()
+        textsrc = "<b>Uploaded Text File Content:</b></br><p id='contento' name='contento'>"+text_string+"</p></br>";
         generateXML(positive_scale,negative_scale,custom_rhythm)
-        soundsrc = '<midi-visualizer type="staff" src="static/test.midi"> </midi-visualizer> <midi-player src="static/test.midi" sound-font visualizer="#section1 midi-visualizer"> </midi-player>'
-        return render_template("index.html",output=soundsrc)
+        soundsrc = '<b>Generated MIDI:</b></br><midi-visualizer type="staff" src="static/test.midi"> </midi-visualizer> <midi-player src="static/test.midi" sound-font visualizer="#section1 midi-visualizer"> </midi-player>'
+        return render_template("index.html",output=textsrc+soundsrc)
 
         #return render_template("index.html",output=htmloader(text,legoutput[1],fpath))
     #return xieon
